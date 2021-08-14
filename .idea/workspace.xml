@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afbe4bff-807d-4b71-b544-32d7454363bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Array/loopindex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session/loginform.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration/loop_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/iteration/loop_html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/indexarray.php" beforeDir="false" afterPath="$PROJECT_DIR$/Array/indexarray.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +34,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/iteration" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +83,11 @@
       <workItem from="1628394035499" duration="9057000" />
       <workItem from="1628404687079" duration="2280000" />
       <workItem from="1628431995069" duration="194000" />
-      <workItem from="1628520632122" duration="647000" />
+      <workItem from="1628520632122" duration="868000" />
+      <workItem from="1628521575123" duration="1053000" />
+      <workItem from="1628738193062" duration="19000" />
+      <workItem from="1628777011519" duration="355000" />
+      <workItem from="1628912686820" duration="8640000" />
     </task>
     <task id="LOCAL-00001" summary="Day-3">
       <created>1628317044439</created>
@@ -118,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628413933810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edit image">
+      <created>1628521489130</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628521489131</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +156,7 @@
     <MESSAGE value="Day-4 (function and loop 2)" />
     <MESSAGE value="Day-4" />
     <MESSAGE value="Day-4 (Array &amp; form)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day-4 (Array &amp; form)" />
+    <MESSAGE value="edit image" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit image" />
   </component>
 </project>

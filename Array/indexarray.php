@@ -4,4 +4,6 @@ echo "<pre>";
 print_r($f);
 echo "</pre>";
 
-echo $f[2];
+echo $f[2]."<br>";
+echo count($f);
+
