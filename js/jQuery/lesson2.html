@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        .primary{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<h1>Hello</h1>
+<button onclick="doAction()">Action</button>
+<script>
+    function doAction() {
+        // $("h1").css("display","none")
+        // $("h1").css({"background-color" : "green", "size" : "white"});
+        // $("button").addClass("primary");
+        $("h1,button").toggleClass("primary");
+    }
+
+</script>
+</body>
+</html>

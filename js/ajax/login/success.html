@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>Success</h1>
+<h1 id="email"></h1>
+<button onclick="logout()">logout</button>
+<script>
+    $(document).ready(function () {
+
+        let email = localStorage.getItem("email");
+        if (email != null){
+            $("#email").text(email);
+        }else {
+            window.location.replace("frontend.html");
+        }
+
+    });
+    function logout() {
+        localStorage.removeItem("email");
+        window.location.replace("frontend.html");
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Login Design</title>
+</head>
+<body>
+<br><br>
+<h1 style="text-align: center" class="text-primary">User list</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Email</th>
+                    <th scope="col">Password</th>
+                </tr>
+                </thead>
+                <tbody  id="table">
+
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+setInterval(function () {
+    console.log("Hello");
+    $(document).ready(function () {
+        $.ajax({
+            url : "backend.php",
+            type: "get",
+            data:{
+                id: 2,
+            },
+            success:function (response) {
+
+                let udata = JSON.parse(response);
+                var row = null;
+                console.log(udata);
+                for(item in udata){
+                    row += `
+               <tr>
+                    <td>`+udata[item].email+`</td>
+                    <td>`+udata[item].password+`</td>
+                </tr>
+                `;
+
+                }
+                $("#table").html(row);
+            },
+            error:function (xhr) {
+                console.log(xhr);
+            }
+        });
+    })
+}, 1000)
+
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>

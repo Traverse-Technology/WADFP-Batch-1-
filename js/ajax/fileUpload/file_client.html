@@ -39,8 +39,8 @@ function sendData() {
         url : "file_server.php",
         type: "post",
         data: {
-            pName: "ss",
-            pPrice: "22"
+            pName: $("#name").val(),
+            pPrice: $("#price").val()
         },
         success:function (response) {
             fileupload();

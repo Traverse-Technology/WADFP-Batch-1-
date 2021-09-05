@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>Hello</h1>
+<button onclick="doAction()">Action</button>
+<button id="btn2">Action2</button>
+<script>
+    function doAction() {
+        $("h1").hide('slow',function () {
+          alert("Hello");
+        });
+
+    }
+    $("#btn2").click(function () {
+        alert("Alert2");
+    })
+
+</script>
+</body>
+</html>

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afbe4bff-807d-4b71-b544-32d7454363bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/array_push.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cookie/lesson2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cookie/loginform/loginform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/insert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/select.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ajax/fileUpload/file_client.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/ajax/fileUpload/file_client.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,12 +53,13 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\php_basic\cookie\loginform" />
-      <recent name="C:\xampp\htdocs\php_basic\iteration" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\php_basic\image" />
+      <recent name="C:\xampp\htdocs\php_basic\iteration" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\php_basic\js\ajax\fileUpload" />
+      <recent name="C:\xampp\htdocs\php_basic\cookie\loginform" />
       <recent name="C:\xampp\htdocs\php_basic\iteration" />
     </key>
   </component>
@@ -105,6 +108,10 @@
       <workItem from="1628912686820" duration="8640000" />
       <workItem from="1628949842033" duration="3838000" />
       <workItem from="1628998693227" duration="7877000" />
+      <workItem from="1630641159847" duration="1231000" />
+      <workItem from="1630643064964" duration="16000" />
+      <workItem from="1630727623341" duration="4034000" />
+      <workItem from="1630813342241" duration="5288000" />
     </task>
     <task id="LOCAL-00001" summary="Day-3">
       <created>1628317044439</created>
